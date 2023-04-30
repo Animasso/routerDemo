@@ -1,5 +1,5 @@
 import React from "react";
-import "./Error.css";
+import "../styles/Error.css";
 export const Error = () => {
   return (
     <div className="textError">

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./NavBar.css";
+import "../styles/NavBar.css";
 export const NavBar = () => {
   return (
     <header>
@@ -8,7 +8,7 @@ export const NavBar = () => {
         <NavLink to="/" end>
           <li>Home</li>
         </NavLink>
-        <NavLink to="/productList">
+        <NavLink to="/products">
           <li>Products</li>
         </NavLink>
         <NavLink to="/contact">
